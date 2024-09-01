@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your favourite music is here...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <!--<li class ="loader">logo</li>-->
+           <li class ="brand"><img src = "logo.png" alt ="logo">music hub</li>
+            <li>home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+   <!-- background <img src="song banner.jpeg" alt="song banner">-->
+   <div class="songItemcontainer" >
+        <div class="songlist" ></div>
+        <h1 id="songName">best of NCS: No copyright sounds</h1>
+        <div class="songItem">
+            <img id="toggleImage1" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img1.jpg" alt="1">
+            <span class="songname" >What makes you beautiful</span>
+            <span class="songlistplay"><span class="timestamp">3:19 <i id="0" class="  songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img id="toggleImage2" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img2.jpg" alt="1">
+            <span class="songname">Mocking Bird</span>
+            <span class="songlistplay"><span class="timestamp">4:11 <i id="1" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img id="toggleImage3" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img3.jpg"alt="1">
+            <span class="songname" >Let me down slowly</span>
+            <span class="songlistplay"><span class="timestamp">2:49 <i id="2" class=" songitemplay  fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">           
+            <img id="toggleImage4" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img4.jpg" alt="1">
+            <span class="songname">Perfect</span>
+            <span class="songlistplay"><span class="timestamp">4:21 <i id="3" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">           
+            <img id="toggleImage5" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img5.jpg" alt="1">
+            <span class="songname">Jindagi bta de</span>
+            <span class="songlistplay"><span class="timestamp">2:35 <i id="4" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">            
+            <img id="toggleImage6" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img6.jpg"alt="1">
+            <span class="songname">Veh kamlaya</span>
+            <span class="songlistplay"><span class="timestamp">3:16 <i id="5" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">            
+            <img id="toggleImage7" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img7.jpg" alt="1">
+            <span class="songname">Calm Down</span>
+            <span class="songlistplay"><span class="timestamp">3:59 <i id="6" class="  songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">            
+            <img id="toggleImage8" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img8.jpg" alt="1">
+            <span class="songname">Heeriye</span>
+            <span class="songlistplay"><span class="timestamp">3:14 <i id="7" class="songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">
+            <img id="toggleImage9" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img9.jpg"alt="1">
+            <span class="songname">Love Story</span>
+            <span class="songlistplay"><span class="timestamp">3:57 <i id="8" class=" songitemplay  fa-regular  fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">           
+            <img id="toggleImage10" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img10.jpg" alt="1">
+            <span class="songname">Falak Tak</span>
+            <span class="songlistplay"><span class="timestamp">6:13 <i id="9" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">
+            <img id="toggleImage11" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img11.jpg"alt="1">
+            <span class="songname">Mast Magan</span>
+            <span class="songlistplay"><span class="timestamp">3:43 <i id="10" class="  songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">
+            <img id="toggleImage12" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img12.jpg" alt="1">
+            <span class="songname">Yuh Hi</span>
+            <span class="songlistplay"><span class="timestamp">4:19 <i id="11" class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">
+            <img id="toggleImage13" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img src="cover/img13.jpg" alt="1">
+            <span class="songname">Satranga</span>
+            <span class="songlistplay"><span class="timestamp">4:31 <i id="12"class=" songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div> 
+        <div class="songItem">
+            <img id="toggleImage14" src="un.png" alt="Image 1" onclick="toggleImage(this)" style="cursor:pointer; width: 25px;">
+            <img  src="cover/img14.jpg"alt="1">
+            <span class="songname">Lets the eyes talk</span>
+            <span class="songlistplay"><span class="timestamp">3:12 <i id="13" class="  songitemplay fa-regular fa-play-circle"></i></span></span>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+    <input type ="range" name ="range" id="progressbar" value="0" min="0" max="100">
+    <div class = "icons">
+        <!-- fontawesomeicons -->
+
+<i class="fas fa-3x fa-step-backward" id="previous"></i>
+<i class="fa-regular fa-3x fa-play-circle" id="masterplay"></i>
+<i class="fas fa-3x fa-step-forward" id="next"></i>
+    </div>
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/e92a908641.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
